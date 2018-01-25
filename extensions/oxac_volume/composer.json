@@ -1,0 +1,24 @@
+{
+    "name": "oxid-academy/oxac_volume",
+    "description": "",
+    "type": "oxideshop-module",
+    "keywords": ["oxid", "modules", "eShop"],
+    "homepage": "https://www.oxid-esales.com/en/home.html",
+    "license": [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "oxac/oxac_volume"
+        }
+    },
+    "version":  "1.0.0",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "OxidAcademy\\VolumeModule\\": "../../../source/modules/oxac/oxac_volume"
+        }
+    }
+}
