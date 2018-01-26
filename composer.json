@@ -10,7 +10,8 @@
   "require": {
     "oxid-esales/oxideshop-metapackage-ce": "^v6.0.0",
     "oxid-community/moduleinternals": "^1.0",
-    "oxid-academy/oxac_volume":"*"
+    "oxid-academy/oxac_volume":"*",
+    "oxid-academy/oxac_vouchers":"*"
   },
   "require-dev": {
     "oxid-esales/testing-library": "^v3.2.0",
@@ -58,6 +59,10 @@
     "oxid-academy/oxac_volume": {
       "type": "path",
       "url": "extensions/oxac_volume"
+    },
+    "oxid-academy/oxac_vouchers": {
+      "type": "path",
+      "url": "extensions/oxac_vouchers"
     }
   }
 }
