@@ -37,8 +37,7 @@ $aModule = array(
     'url'          => 'http://www.oxid-esales.com',
     'email'        => 'info@oxid-esales.com',
     'extend'       => array(
-        //\OxidEsales\Eshop\Application\Model\Article::class                    => \OxidEsales\PayPalModule\Model\Article::class,
-        //\OxidEsales\Eshop\Application\Model\Article::class          =>          \OxidAcademy\VolumeModule\Model\Article::class
+        \OxidEsales\Eshop\Core\ViewConfig::class => \OxidAcademy\VoucherModule\Core\ViewConfig::class
     ),
     'controllers' => array(
     ),
