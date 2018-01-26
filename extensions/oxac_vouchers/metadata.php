@@ -51,5 +51,6 @@ $aModule = array(
 
     ),
     'settings' => array(
+        array('group' => 'OXAC_VOUCHER_SETTINGS', 'name' => 'sOxacVoucherBasketValue', 'type' => 'str',  'value' => '30')
     )
 );
