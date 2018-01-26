@@ -49,6 +49,9 @@ $aModule = array(
     'templates' => array(
     ),
     'blocks' => array(
+        array('template' => 'page/details/inc/productmain.tpl',
+            'block' => 'details_productmain_artnumber',
+            'file' => 'views/blocks/details_productmain_artnumber.tpl')
      ),
     'settings' => array(
     )
